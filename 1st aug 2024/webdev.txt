@@ -1,0 +1,86 @@
+front end
+    - HTML 
+    - CSS
+    - JS 
+backend 
+    - PHP 
+    - Python
+Database 
+    - MONGODB
+    - MYSQL 
+    - POSTRESQL
+full stack 
+    combination for both front end and backend
+
+What is HTML 
+    - HTML stands for Hyper Text Markup Language , which means it is a language which helps us develping web pages 
+    - It is not a programming although it is coding language which
+    - the HTML file ends with .html extension
+    - HTML comes with different features such as tags 
+    - A tags gives additional information about the information
+    - In HTML there is something we calle it as an attribute which gives additional information about the tag
+    - Selectors in HTML 
+        we can select a tag by using tagname itself also 
+        but the problem is that it will select all the tags inside a html document file
+        - id 
+        - class 
+    - Basic strucure in HTML 
+    - We do have different tags in HTML 
+        - For heading purposes we have h1 to h6 tags 
+        - For redirecting from one page to another page we use anchor tag
+
+- image 
+    - It is a self closing tag
+    - How we can use an online image 
+    - How we can use an offline image
+    - What is the pupose of the alt tag 
+
+- FORMS 
+    - input has differnt types such as 
+    text 
+    password 
+    file
+    color
+    date-time
+    date
+    date-time-local
+    hidden
+
+
+Interview Question 
+    What is web development
+    - A web development is the process of creating a fornt end and backend of the appliations , 
+    in a website it consists web pages , and combination of multiple web pages is called as a website , when you connect backend and database with a website , it will be called as web application 
+    - Fornt end 
+    - backend
+    - database 
+What is difference between programming and coding languages
+    - Programming language - it takes some input and gives us output by processing the input information given by user
+    - Coding language doesn't do that , it will print the data as it as we give it.
+
+Even if i don't write HTML and BODY tag still how my code wors
+    - The modern browsers automatically generates tags as html and body and also automatically closes it
+
+I want to redirect to a differnet page when i am using anchor tag 
+    - we can simply use the _blank attribute for redirecting it to the next page in different tab
+
+I want to use images in my webpage how can i do it?
+    - use simple image tag <img>
+
+Can we validate a form without using any programming language
+    - yes , we can do it with html's default validators such as required
+
+Can you list 5 input types for me 
+
+When input types like datetime was introduced 
+    it was introduced in HTML 5 
+
+
+
+
+Create a simple webpage where there are 4 menus which says home about contact and blog , and also take care to open every page in differnt tab
+
+redirect to each page 
+
+
+2. Display an online image with a caption beauty of nature 

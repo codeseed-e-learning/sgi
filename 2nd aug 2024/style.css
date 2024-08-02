@@ -1,0 +1,29 @@
+.test1 {
+    color: orange;
+}
+
+/* varibales in css  */
+/* 
+
+varibale is something which can change it's value anytime
+
+*/
+
+/* 
+
+syntax - 
+
+--varibaleName : value - declaration
+key : var(--VaribaleName)
+
+*/
+
+:root {
+
+    --midnightblue : #2c3e50;
+    --cluds : #ecf0f1;
+}
+body {
+    background-color: var(--midnightblue);
+    color: var(--cluds);
+}

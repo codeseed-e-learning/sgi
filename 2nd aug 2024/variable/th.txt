@@ -1,0 +1,19 @@
+a varibale is something which changes itself's value 
+
+when you are using a varibale value in css , you need to follow a perticular syntax 
+
+:root {
+    --varibaleName : value 
+
+}
+
+selector {
+    property : var(--varibaleName) 
+}
+
+:root {
+    amit : #000 
+}
+h1  {
+    color : var(--amit)
+}
