@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: lightcyan;
+            padding: 20px;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        ul li a {
+            margin: 0px 10px;
+            text-decoration: none;
+            color: black;
+        }
+        #hero {
+            display: flex;
+            height: 80vh;
+        }
+        #hero .left {
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border-right: 1px solid black;
+            width: 50%;
+        }
+        #hero .right {
+           
+           
+            width: 50%;
+        }
+        #hire-me {
+            border: none;
+            padding: 10px;
+            background-color: lightgreen;
+            border-radius: 10px;
+        }
+        #hero-image{
+            width: 100%;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="nav-brand">cs</div>
+            <div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </main>
+    <section id="hero">
+        <div class="left">
+            <div>
+                <h1> Welcom to CODESEED!</h1>
+                <h2>I am a web developer</h2>
+                <button id="hire-me">Hire Me</button>
+            </div>
+        </div>
+        <div class="right">
+            <img src="https://cpet.tc.columbia.edu/uploads/1/8/4/5/18456699/testing-values-imgur_orig.png"  id="hero-image" alt="" srcset="">
+        </div>
+    </section>
+</body>
+
+</html>
