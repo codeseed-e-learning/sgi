@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .list-items {
+            display: flex;
+        }
+
+        .list-items a {
+            margin: 0px 10px;
+            color: black;
+        }
+
+        #toggle {
+            display: none;
+        }
+        .hidden {
+            display: none;
+        }
+        @media screen and (max-width: 412px) {
+            .navbar {
+                display: block;
+            }
+
+            .list-items a {
+                margin: 0px 0px;
+            }
+
+            .list-items {
+                display: block;
+            }
+
+            #toggle {
+                display: block;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="right-bar">
+            <div class="nav-brand">CODESEED</div>
+        </div>
+        <button id="toggle">Show</button>
+        <div class="left-bar hidden">
+            <ul class="list-items">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <script>
+        const toggleButton = document.querySelector("#toggle").addEventListener("click", function(){
+            let leftbar = document.querySelector(".left-bar").classList.remove("hidden");
+        })
+    </script>
+</body>
+
+</html>

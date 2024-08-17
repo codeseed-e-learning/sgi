@@ -1,0 +1,7 @@
+create an inline css , internal css and external css , and in h1 write your last name , in h2 write your middlename and in h3 write your name and give them different colors , but with varibales named firstname , middlename and lastname 
+
+--firstname 
+--middlename
+--lastname 
+
+you have to apply it internally and externally as well
