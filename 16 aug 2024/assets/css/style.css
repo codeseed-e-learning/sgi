@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+:root {
+    --primaryColor: #30336b;
+    --whiteColor: whitesmoke;
+    --font : "Outfit";
+}
+body {
+    font-family: var(--font);
+}
+
+.top-bar{
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+#search{
+    padding: 5px 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.icon{
+    font-size: 25px;
+}
+.user-activity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-activity .icon {
+    margin: 0px 10px;
+}
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    border-bottom: 0.5px solid lightgray;
+
+
+}
+.menu ul {
+    display: flex;
+    margin: 0px 40px;
+}
+.menu ul li {
+    margin: 0px 25px;
+}
+a {
+    color: black;
+}
+.sale-button{
+    padding: 10px;
+    text-transform: uppercase;
+    border: none;
+    outline: none; 
+    border-right: 0.5px solid lightgray;
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
+   
+}
+.main-navbar .categories{
+    border-right: 0.5px solid lightgray;
+    border-left: 0.5px solid lightgray;
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding: 20px;
+}
+.main-navbar .menu{
+    border-right: 0.5px solid lightgray;
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding: 20px;
+
+}
+
+.sale {
+    width: 20%;
+}
+.sale-button:hover{
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+}
+
+#hero{
+    background-image: url('/assets/images/banner.jpg');
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+}
+
+/* https://demo.xpeedstudio.com/marketov2/furniture/ */
